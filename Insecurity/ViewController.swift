@@ -9,12 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var balonCokelat: UIButton!
+    @IBOutlet weak var balonBiru: UIButton!
+    @IBOutlet weak var balonMerah: UIButton!
+    @IBOutlet weak var balonAbuAbu: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+ 
+    @IBAction func balonCokelatAction(_ sender: Any) {
+    }
+    
+    
+    @IBAction func balonBiruAction(_ sender: Any) {
+    }
+    
+    
+    @IBAction func balonMerahAction(_ sender: Any) {
+    }
+    
+    
+    @IBAction func balonAbuAbuAction(_ sender: Any) {
+    }
+    
 }
 
