@@ -43,7 +43,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="balon merah"/>
                                 <connections>
-                                    <action selector="balonMerahAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gLW-9y-bck"/>
+                                    <action selector="balonMerahAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WDZ-SO-twa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBK-Pa-8Gf">
@@ -54,15 +54,48 @@
                                     <action selector="balonAbuAbuAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NEl-q3-xkW"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="headphone" translatesAutoresizingMaskIntoConstraints="NO" id="Sef-Iz-5ai">
+                                <rect key="frame" x="106" y="631" width="202" height="108"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yD-qM-1VH">
+                                <rect key="frame" x="84" y="407" width="247" height="156"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Hapiness">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.43593849117522954" blue="0.26242211889901568" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="30" name="Noteworthy-Light"/>
+                                            <font key="NSOriginalFont" size="23" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" Is  A Choice...">
+                                        <attributes>
+                                            <color key="NSBackgroundColor" red="1" green="0.43593849117522954" blue="0.26242211889901568" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="30" name="Noteworthy-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="background2" destination="9GU-cf-YxA" id="vFD-4p-gtX"/>
                         <outlet property="balonAbuAbu" destination="UBK-Pa-8Gf" id="dAR-wu-wf4"/>
                         <outlet property="balonBiru" destination="6Dg-Xi-us2" id="j3N-M5-jr2"/>
                         <outlet property="balonCokelat" destination="EYn-Zy-Wbe" id="G8k-oS-rET"/>
-                        <outlet property="balonMerah" destination="2VX-J4-m4g" id="mLo-Sp-1uD"/>
+                        <outlet property="balonMerah" destination="2VX-J4-m4g" id="d1b-US-0yi"/>
+                        <outlet property="headPhone" destination="Sef-Iz-5ai" id="wy2-31-nRc"/>
+                        <outlet property="quote" destination="4yD-qM-1VH" id="JGW-yM-Io8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -76,5 +109,6 @@
         <image name="balon biru" width="234" height="127"/>
         <image name="balon cokelat" width="234" height="127"/>
         <image name="balon merah" width="234" height="127"/>
+        <image name="headphone" width="152" height="98"/>
     </resources>
 </document>
