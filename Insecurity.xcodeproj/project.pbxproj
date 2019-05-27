@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D1044EDE22905F550084647F /* talkingpeople.wav in Resources */ = {isa = PBXBuildFile; fileRef = D1044EDD22905F550084647F /* talkingpeople.wav */; };
 		D1044EE0229078D20084647F /* Flickering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1044EDF229078D10084647F /* Flickering.mp3 */; };
+		D1A5559B2291B8AD00921E40 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = D1A5559A2291B8AD00921E40 /* MyParticle.sks */; };
 		D1AD8B2F229046C6004D4ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AD8B2E229046C6004D4ED6 /* AppDelegate.swift */; };
 		D1AD8B31229046C6004D4ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AD8B30229046C6004D4ED6 /* ViewController.swift */; };
 		D1AD8B34229046C6004D4ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1AD8B32229046C6004D4ED6 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		D1044EDD22905F550084647F /* talkingpeople.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = talkingpeople.wav; sourceTree = "<group>"; };
 		D1044EDF229078D10084647F /* Flickering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Flickering.mp3; sourceTree = "<group>"; };
+		D1A5559A2291B8AD00921E40 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 		D1AD8B2B229046C6004D4ED6 /* Insecurity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insecurity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1AD8B2E229046C6004D4ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1AD8B30229046C6004D4ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D1044EDF229078D10084647F /* Flickering.mp3 */,
 				D1AD8B37229046C8004D4ED6 /* LaunchScreen.storyboard */,
 				D1AD8B3A229046C8004D4ED6 /* Info.plist */,
+				D1A5559A2291B8AD00921E40 /* MyParticle.sks */,
 			);
 			path = Insecurity;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1044EDE22905F550084647F /* talkingpeople.wav in Resources */,
+				D1A5559B2291B8AD00921E40 /* MyParticle.sks in Resources */,
 				D1AD8B39229046C8004D4ED6 /* LaunchScreen.storyboard in Resources */,
 				D1AD8B36229046C8004D4ED6 /* Assets.xcassets in Resources */,
 				D1044EE0229078D20084647F /* Flickering.mp3 in Resources */,
@@ -291,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AHS25XG83;
 				INFOPLIST_FILE = Insecurity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5AHS25XG83;
 				INFOPLIST_FILE = Insecurity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
